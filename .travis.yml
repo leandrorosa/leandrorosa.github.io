@@ -9,12 +9,12 @@ script:
     - hugo
 
 after_success: |
-    if [ -n "$GITHUB_TOKEN" ]; then
+    if [ -n "$GITHUB_API_KEY" ]; then
     git checkout --orphan master
     git rm -rf .
     mv public/* .
     rm -rf public hugo_*
     git add -f --ignore-errors --all
     git -c user.name='travis' -c user.email='travis' commit -m init
-    git push -f -q https://$GITHUB_USER:$GITHUB_TOKEN@github.com/leandrorosa.github.io master
+    git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/$TRAVIS_REPO_SLUG master
     fi
