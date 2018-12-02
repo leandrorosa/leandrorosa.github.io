@@ -1,7 +1,7 @@
 ---
 title: "Fish Shell"
 date: 2018-11-04T07:58:05-02:00
-draft: true
+draft: false
 tags:
 ---
 
