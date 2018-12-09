@@ -1,7 +1,7 @@
 ---
 title: "Fish Shell"
-date: 2018-11-04T07:58:05-02:00
-draft: true
+date: 2018-12-08T22:15:05-02:00
+draft: false
 tags: 
 ---
 
@@ -23,11 +23,7 @@ You can run the ```fish_config``` command and it opens a really cool web interfa
 - **Works out of the box:**
 You don't need to edit any file, just install and replace your old terminal and use it.
 
-#### Pics
-
-
 #### Installation
-
 Arch based distros:
 
 ```
