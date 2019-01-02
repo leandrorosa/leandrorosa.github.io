@@ -2,7 +2,7 @@
 title: "Running PostgreSQL through Docker"
 date: 2019-01-02T15:11:05-02:00
 draft: false
-tags: docker
+tags: 
 ---
 I've been using Docker to run PostgreSQL server and I think it is much simplier than installing it natively. 
 
