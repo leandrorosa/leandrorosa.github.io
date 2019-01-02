@@ -1,6 +1,6 @@
 ---
 title: "Running PostgreSQL through Docker"
-date: 2018-12-08T22:15:05-02:00
+date: 2019-01-02T15:11:05-02:00
 draft: false
 tags: docker
 ---
