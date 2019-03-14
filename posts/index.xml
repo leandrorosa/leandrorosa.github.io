@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Leandro Rosa</title>
+    <link>https://leandrorosa.github.io/posts/</link>
+    <description>Recent content in Posts on Leandro Rosa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Mar 2019 05:27:05 -0300</lastBuildDate>
+    
+	<atom:link href="https://leandrorosa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guava Cache with Java 8 Lambdas</title>
+      <link>https://leandrorosa.github.io/posts/guava-cache/</link>
+      <pubDate>Thu, 14 Mar 2019 05:27:05 -0300</pubDate>
+      
+      <guid>https://leandrorosa.github.io/posts/guava-cache/</guid>
+      <description>Today I needed to cache some values in memory in an application that does a lot of json parsing and I tought that Guava Cache would be nice for that.
+Creating the cache To create the cache we use a CacheBuilder and setup the properties in it.
+private static final Cache&amp;lt;Integer, String&amp;gt; cache = CacheBuilder.newBuilder() .weakValues() .maximumSize(CACHE_SIZE) .build( new CacheLoader&amp;lt;Integer, String&amp;gt;() { @Override public String load(Integer key) throws Exception { return &amp;quot;my computed value&amp;quot;; } });  Sounds a little bit verbose, maybe we can use Jaba 8 lambdas instead of the CacheLoader?</description>
+    </item>
+    
+    <item>
+      <title>Running PostgreSQL through Docker</title>
+      <link>https://leandrorosa.github.io/posts/postgres-docker/</link>
+      <pubDate>Wed, 02 Jan 2019 15:11:05 -0200</pubDate>
+      
+      <guid>https://leandrorosa.github.io/posts/postgres-docker/</guid>
+      <description> I&amp;rsquo;ve been using Docker to run PostgreSQL server and I think it is much simplier than installing it natively.
+Creating container docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -v /home/user/postgres/data:/var/lib/postgresql/data -d postgres  Note: You can customize /home/users/postgres/data directory
+Starting server sudo docker start postgres  Stopping server sudo docker stop postgres  </description>
+    </item>
+    
+    <item>
+      <title>Fish Shell</title>
+      <link>https://leandrorosa.github.io/posts/fish-shell/</link>
+      <pubDate>Sat, 08 Dec 2018 22:15:05 -0200</pubDate>
+      
+      <guid>https://leandrorosa.github.io/posts/fish-shell/</guid>
+      <description>Fish is very simple and nicely interative shell. I&amp;rsquo;ve been using it for the past 6 months and it has replaced ZSH totally. Here are some of the nicest features i found.
+ Auto complete for everithing: You can just tab in your terminal and it will bring to you sugestions.
+ Man integration: It shows all options that are documented on man (help) about the command.
+ Lots of plugins: I installed oh-my-fish and kubernetes plugins.</description>
+    </item>
+    
+  </channel>
+</rss>

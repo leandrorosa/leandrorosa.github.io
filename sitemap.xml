@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://leandrorosa.github.io/posts/guava-cache/</loc>
+    <lastmod>2019-03-14T05:27:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leandrorosa.github.io/posts/postgres-docker/</loc>
+    <lastmod>2019-01-02T15:11:05-02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leandrorosa.github.io/posts/fish-shell/</loc>
+    <lastmod>2018-12-08T22:15:05-02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leandrorosa.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leandrorosa.github.io/</loc>
+    <lastmod>2019-03-14T05:27:05-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leandrorosa.github.io/posts/</loc>
+    <lastmod>2019-03-14T05:27:05-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leandrorosa.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
